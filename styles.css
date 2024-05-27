@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(44, 44, 44);
+    width: fit-content;
+    padding: 54px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(62, 62, 62, .2);
+}
+button{
+    width: fit-content;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background: #cf4b4b;
+    color: whitesmoke;
+    border: none;
+    margin-top: 24px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+.gender,
+.dob{
+    color: green;
+    font-size: 12px;
+}
